@@ -45,6 +45,10 @@ input{
     text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
 }
 
+
+.home{
+     transform: translate(0, -10%);
+}
 #home-container{
     margin-left: 10vh;
     margin-right: 10vh;
@@ -81,25 +85,30 @@ input{
 #world{
     grid-area: w;
     background-image: url("https://i.pinimg.com/736x/df/a6/3a/dfa63a07fa427839ece6dcf51b3f6a20--fantasy-world-map-fantasy-city.jpg");
+    text-align: center;
 }
 
 #wizards{
     grid-area: wz;
     background-image: url("https://i.pinimg.com/originals/2d/be/d4/2dbed420e8d6225cf3ca6d8c831b9ad6.jpg");
+    text-align: center;
 }
 
 #bestiary{
     grid-area: b;
     background-color: green;
     background-image: url("https://img00.deviantart.net/f69b/i/2015/231/e/8/magma_beast_by_awesomeplex-d96cl5r.jpg");
+    text-align: center;
 }
 
 #potions{
     grid-area: p;
     background-image: url("https://cdna.artstation.com/p/assets/images/images/007/756/508/large/adrian-brito-fantasypotionbottles-featured.jpg?1508303309");
+    text-align: center;
 }
 
 #deities{
     grid-area: d;
     background-image: url("https://artfiles.alphacoders.com/565/56528.jpg");
+    text-align: center;
 }
